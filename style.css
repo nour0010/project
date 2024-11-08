@@ -1,0 +1,135 @@
+
+*{
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: '<weight>';
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+body{
+  
+     
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url(suiimm.jpg);
+    background-position: center;
+    background-size: 2100px;
+    
+    
+}
+.navbar{
+    width: 100%;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    
+    width: 86%;
+    list-style: none;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.contaner{
+    position: relative;
+    text-align: center;
+     border: 2px solid white;
+    backdrop-filter: blur(70px);
+    min-width: 400px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.inpparent{
+   
+    text-align: center;
+    
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 10px;
+}
+input{
+    height: 30px;
+    width: 96%;
+    outline: none;
+    border: 2px solid;
+    border-radius: 10px;
+     font-size: 17px; 
+     padding: 2px 10px;
+    
+}
+.a-b{
+    width: 100%;
+    height: 80px;
+}
+
+.h4a-b{
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+.mabinput{
+    display: flex;
+    margin: 2px;
+    gap: 4px;
+
+}
+h4{
+    height: 7px;
+}
+.the_solution{
+    border: 2px solid;
+    backdrop-filter: blur(70px);
+}
+table{
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.578);
+    width: 370px;
+    table-layout: fixed;
+    margin:10px ;
+    color: white;
+}
+th{
+    border: 2px solid rgba(0, 0, 0, 0.411) ;
+    width: 20px;
+}
+.n{
+    width: 5px;
+}
+td{
+    border: 2px solid black ;  
+    overflow: hidden;
+    width: 20px;
+    text-overflow: ellipsis;
+}
+#btn{
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 20px;
+    outline: none;
+    background-color: rgba(255, 0, 183, 0.692);
+    
+}
+#btn2{
+    background-color: rgba(255, 94, 0, 0.692);
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 20px;
+    outline: none;
+    
+}
